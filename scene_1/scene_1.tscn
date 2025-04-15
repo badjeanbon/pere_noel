@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1my1ik72tvhv"]
+
+[ext_resource type="PackedScene" uid="uid://cifu7lgr2v3k4" path="res://scene_maison/maison.tscn" id="1_ksmm3"]
+[ext_resource type="PackedScene" uid="uid://csybo8kth38ma" path="res://scene_cochon/cochon.tscn" id="2_bos7y"]
+
+[node name="scene_1" type="Node2D"]
+
+[node name="maison" parent="." instance=ExtResource("1_ksmm3")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="cochon" parent="." instance=ExtResource("2_bos7y")]
+position = Vector2(216, 219)
+script = null

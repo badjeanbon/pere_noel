@@ -1,0 +1,17 @@
+[remap]
+
+importer="com.timothyqiu.gdfxr.importer"
+type="AudioStreamWAV"
+uid="uid://cjivawn81ybfi"
+path="res://.godot/imported/fuse.sfxr-e7e9aafaba20b25739914f83438d2880.sample"
+
+[deps]
+
+source_file="res://audio_fxr/fuse.sfxr"
+dest_files=["res://.godot/imported/fuse.sfxr-e7e9aafaba20b25739914f83438d2880.sample"]
+
+[params]
+
+loop=false
+bit_depth=0
+sample_rate=0

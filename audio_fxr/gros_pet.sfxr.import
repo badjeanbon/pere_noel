@@ -1,0 +1,17 @@
+[remap]
+
+importer="com.timothyqiu.gdfxr.importer"
+type="AudioStreamWAV"
+uid="uid://dg5msdsvo1j1u"
+path="res://.godot/imported/gros_pet.sfxr-064cc1c917c88cb90ce1463f5b80c34a.sample"
+
+[deps]
+
+source_file="res://audio_fxr/gros_pet.sfxr"
+dest_files=["res://.godot/imported/gros_pet.sfxr-064cc1c917c88cb90ce1463f5b80c34a.sample"]
+
+[params]
+
+loop=false
+bit_depth=0
+sample_rate=0
