@@ -1,8 +1,11 @@
-[gd_scene load_steps=12 format=3 uid="uid://csybo8kth38ma"]
+[gd_scene load_steps=15 format=3 uid="uid://csybo8kth38ma"]
 
 [ext_resource type="Script" uid="uid://dnl76ta4benc0" path="res://scene_cochon/cochon.gd" id="1_p3xf1"]
-[ext_resource type="Texture2D" uid="uid://doipinfeck1v4" path="res://scene_cochon/pig-1a.png" id="3_cmdnc"]
+[ext_resource type="Texture2D" uid="uid://nq7hx0yh314i" path="res://scene_cochon/pig-1a.png" id="3_cmdnc"]
 [ext_resource type="Script" uid="uid://bmicekm6uxy4s" path="res://addons/trail_2d/trail_2d.gd" id="3_vxg8k"]
+[ext_resource type="AudioStream" uid="uid://qesg2rp267mu" path="res://audio_fxr/jump.sfxr" id="4_yf83q"]
+[ext_resource type="AudioStream" uid="uid://cjivawn81ybfi" path="res://audio_fxr/fuse.sfxr" id="5_5k8wr"]
+[ext_resource type="AudioStream" uid="uid://dbg6q7q6dk0n" path="res://audio_fxr/ufo.sfxr" id="6_k4cvg"]
 
 [sub_resource type="Curve" id="Curve_0pfo2"]
 _data = [Vector2(0.0294118, 0.934066), 0.0, 0.0, 0, 0, Vector2(0.955882, 0.054945), 0.0, 0.0, 0, 0]
@@ -122,9 +125,12 @@ libraries = {
 }
 
 [node name="son_jump" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_yf83q")
 volume_db = -13.22
 
 [node name="son_fuse" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_5k8wr")
 volume_db = -22.315
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_k4cvg")

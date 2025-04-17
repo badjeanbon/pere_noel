@@ -7,8 +7,7 @@
 
 [node name="maison" parent="." instance=ExtResource("1_ksmm3")]
 
-[node name="Camera2D" type="Camera2D" parent="."]
-
 [node name="cochon" parent="." instance=ExtResource("2_bos7y")]
-position = Vector2(216, 219)
-script = null
+position = Vector2(170, -41)
+
+[node name="Camera2D" type="Camera2D" parent="."]
